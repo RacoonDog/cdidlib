@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.racoondog'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-codec:commons-codec:1.15'
+    implementation 'com.sun.jna:jna:3.0.9'
+}
